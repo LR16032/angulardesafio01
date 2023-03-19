@@ -1,0 +1,152 @@
+.contenidoPrincipal{
+    display: flex;
+}
+
+.section-informativa{
+    display: flex;
+    background-color: red;
+    width: 95%;
+}
+
+.letra{
+   max-width: 30%;
+   font-size: 20px;
+padding: 5px;
+    background-color: aqua;
+}
+
+.read-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+    .read-more p{
+        max-width: 90%;
+        font-size: 20px;
+     padding: 10px;
+     margin-left: 10px;
+    }
+
+.ultimo-button{
+    align-self: flex-start;
+
+    background-color:black; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    padding: 12px 24px; /* Espacio entre el borde del botón y el texto */
+    border: none; /* Borde del botón */
+    border-radius: 4px; /* Borde redondeado del botón */
+    cursor: pointer; 
+
+
+   
+}
+
+.videoSobre-sobre{
+    line-height: 1;
+}
+
+
+.dos{
+
+    font-size: 12px;
+    line-height: 1;
+}
+
+.uno{
+
+    font-size: 15px;
+    
+}
+
+
+
+footer {
+    background-color: #ffffff;
+    color: black;
+ 
+    text-align: center;
+  }
+  
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    padding: 10px;
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  
+  .footer-content nav {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-content li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-content a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .lista-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .lista-compu{
+  display: flex;
+  flex-direction: row;
+    background-color: blue;
+  }
+
+  .contenedor-footer-padre{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: bisque;
+    padding: 0;
+  }
+
+ 
+
+  .container-footer {
+    display: flex;
+   
+  }
+  
+  .container-footer h2 {
+   padding: 10px;
+   
+  }
+
+  .container-footer img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .container-footer p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0%;
+  }
+  
